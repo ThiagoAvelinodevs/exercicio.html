@@ -9,20 +9,16 @@
     <h1>Formulário de Cadastro</h1>
     <form>
     <label for="Nome">Nome</label>
-    <input id="Nome" type="Nome"/> 
+    <input type="text"/> 
     <br/>
-    <label for="Email">Seu e-mail</label>
-    <input id="Email" type="Email"/>
+    <label for="E-mail">E-mail</label>
+    <input id="E-mail" type="E-mail"/>
     <br/>
     <label for="Senha">Senha</label>
-    <input id="Senha" type="Senha"/><br/>
+    <input type="text"/><br/>
     <button type="submit">
         Cadastrar
     </button>
-    <button type="reset">
-        Apagar
-    </button>
-
     </form>
     </body>
 </html>
